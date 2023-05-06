@@ -32,8 +32,7 @@ export const FeedbackBtn = styled.button`
   cursor: pointer;
 
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     background-color: ${({ children }) => {
       switch (children) {
         case 'good':

@@ -2,18 +2,12 @@ import styled from '@emotion/styled';
 
 export const Stats = styled.div`
   color: #4d5264;
-  max-width: 200px;
+  max-width: 500px;
    `;
 
   export const StatItem = styled.p`
   color: #4d5264;
-  font-size: 16px;
-  padding: 10px;
-  background-color: #f3f3f5;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  border-right: 1px solid #e4e9f0;
-  
-  &:last-child {
-    border-right: none;
-  }
-`;
+  padding: 2px 10px;
+  font-size: 15px;
+  line-height: 1.25;
+  `;
